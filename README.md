@@ -1,28 +1,19 @@
-𝗦𝗶𝗺𝗽𝗹𝗲𝗧𝘄𝗲𝗲𝗻
+![image|690x206](upload://unlY80v6ebdphgM1twmiycrA02x.png)
 
-READ THE LISENCE SCRIPT FOR LISENCE!
+A simple module for tweening/animation functions with GUI objects!
 
-A Roblox module for creating and playing tweens simply!
-
-𝗙𝗨𝗡𝗖𝗧𝗜𝗢𝗡𝗦:
-
-`module.create(instance: Instance, goal: Table, duration: number, play: boolean)`
+> 🧑‍💻Functions:
 
 
-`instance` - the instance to tween
-
-`goal` - a table of properties and their values
-
-`duration` - (optional, Default is 1) the duration of the tween in seconds
-
-`play` - (optional, Default is true) immediately play the tween or not
+1. TYPEWRITER EFFECT
+    `SimpleTween.typewriteText(textLabel: TextLabel, text: string, waitPerChar: number, playSound: boolean)`
 
 
+3. SHOW/HIDE GUI OBJECT   
+    `SimpleTween.hideObject(object: GuiObject, duration: number)`
+   
+    `SimpleTween.showObject(object: GuiObject, targetSize: UDim2, duration: number)`
 
-EXAMPLE:
 
-
-    local module = require(ServerScriptService.SimpleTween.Main)
-    
-    module.create(workspace.Part, {Color = Color3.new(1,0,0)}, 5, true)
-    
+5. SIMPLE TWEEN
+    `SimpleTween.tween(instance: Instance, goal, duration: number, play: boolean)`
