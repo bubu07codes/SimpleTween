@@ -6,7 +6,7 @@ A Roblox module for creating and playing tweens simply!
 
 𝗙𝗨𝗡𝗖𝗧𝗜𝗢𝗡𝗦:
 
-`module.createTween(instance: Instance, goal: Table, duration: number, play: boolean)`
+`module.create(instance: Instance, goal: Table, duration: number, play: boolean)`
 
 
 `instance` - the instance to tween
@@ -24,5 +24,5 @@ EXAMPLE:
 
     local module = require(ServerScriptService.SimpleTween.Main)
     
-    module.createTween(workspace.Part, {Color = Color3.new(1,0,0)}, 5, true)
+    module.create(workspace.Part, {Color = Color3.new(1,0,0)}, 5, true)
     
