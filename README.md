@@ -8,10 +8,16 @@ A Roblox module for creating and playing tweens simply!
 
 `module.createTween(instance: Instance, goal: Table, duration: number, play: boolean)`
 
+
 `instance` - the instance to tween
+
 `goal` - a table of properties and their values
+
 `duration` - (optional, Default is 1) the duration of the tween in seconds
+
 `play` - (optional, Default is true) immediately play the tween or not
+
+
 
 EXAMPLE:
 
