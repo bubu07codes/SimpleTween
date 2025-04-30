@@ -12,12 +12,12 @@ function module.tween(instance: Instance, goal, duration: number, play: boolean)
 	return currentTween
 end
 
-function module.typewriteText(textLabel: TextLabel, text: string, waitPerChar: number, playSound: boolean)
+function module.typewriteText(textElement, text: string, waitPerChar: number, playSound: boolean)
 	waitPerChar = waitPerChar or 0.05
 	playSound = playSound or false
-	if textLabel then
+	if textElement then
 		for i = 1,#text,1 do
-			textLabel.Text = string.sub(text,1,i)
+			textElement.Text = string.sub(text,1,i)
 			task.wait(waitPerChar)
 			if playSound then
 				script.TypewriteClick:Play()
