@@ -1,4 +1,4 @@
-![image|690x206](upload://unlY80v6ebdphgM1twmiycrA02x.png)
+![image|690x206](https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/5X/5/8/0/9/5809049d0c8e3603c83c62c0b5f3e6bb58ec22ce.png)
 
 A simple module for tweening/animation functions with GUI objects!
 
