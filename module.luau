@@ -1,6 +1,6 @@
 --SimpleTween by Bubu
 --https://devforum.roblox.com/t/simpletween-a-module-to-help-you-animate-ui-and-much-more
---This module is lisenced under the MIT LISENCE, more in the LISENCE script
+--This module is licensed under the MIT LICENSE, more in the LICENSE script
 
 local TweenService = game:GetService("TweenService")
 
